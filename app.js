@@ -20,6 +20,39 @@ function transformData(data){
 
     const rows = data.split(/\r?\n/)
 
+    const tempArray = []
+
+    console.log('ciclo for')
+   for (const element of rows) {
+     
+
+        tempArray.push(element)
+
+        const students = []
+
+        for (let i = 0; i < tempArray.length; i++) {
+            const student = tempArray[i];
+
+            students.push(student)
+
+console.log(students)
+
+
+            
+        }
+        
+
+       
+        
+        
+    } const header = tempArray[0]
+
+    const headerArray = header.split(',')
+
+
+
+
+
 //creare una costante 'header' con la prima riga che avrete tolto a rows (unshift)
 //create una costante 'headerArray' splittando la stringa header sulle virgole
 //creare un array chiamato students (vuoto)
@@ -36,9 +69,11 @@ function transformData(data){
 
 
 
-    return JSON.stringify(rows)
+    return JSON.stringify(headerArray)
 
 }
+
+
 
 
 function readFile(url) {
