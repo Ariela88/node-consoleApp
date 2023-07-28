@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "paperino",
+    "animale": "papero",
+    "citta": "paperopoli"
+  },
+  {
+    "nome": "topolino",
+    "animale": "topo",
+    "citta": "topolinia"
+  },
+  {
+    "nome": "pippo",
+    "animale": "cane",
+    "citta": "topolinia"
+  }
+]
