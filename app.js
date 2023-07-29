@@ -3,6 +3,14 @@ const fs = require('fs');
 const inputUrl = process.argv[2];
 const outputUrl = process.argv[3];
 
+const data = readFile(inputUrl);
+
+if (data) {
+    const result = transformData(data);
+    writeData(outputUrl, result);
+}
+
+
 function transformData(data) {
     const rows = data.split(/\r?\n/);
     const header = rows.shift();
@@ -55,9 +63,3 @@ function writeData(url, data) {
     }
 }
 
-const data = readFile(inputUrl);
-
-if (data) {
-    const result = transformData(data);
-    writeData(outputUrl, result);
-}
