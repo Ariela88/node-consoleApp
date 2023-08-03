@@ -1,0 +1,14 @@
+[
+  {
+    "brand*model*color": "fiat*panda*red"
+  },
+  {
+    "brand*model*color": "ford*fiesta*grigio"
+  },
+  {
+    "brand*model*color": "audi*tt*gold"
+  },
+  {
+    "brand*model*color": "tesla*8infinito*bianco"
+  }
+]

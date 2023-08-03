@@ -1,0 +1,17 @@
+[
+  {
+    "brand": "fiat",
+    "model": "panda",
+    "color": "red"
+  },
+  {
+    "brand": "ford",
+    "model": "fiesta",
+    "color": "grigio"
+  },
+  {
+    "brand": "audi",
+    "model": "tt",
+    "color": "gold"
+  }
+]

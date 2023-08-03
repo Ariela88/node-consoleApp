@@ -27,7 +27,7 @@ function transformData(data, separator) {
     const disney = [];
 
     for (const row of rows) {
-        const rowArray = row.split('#');
+        const rowArray = row.split(separator);
         const element = {};
 
         for (let j = 0; j < headerArray.length; j++) {

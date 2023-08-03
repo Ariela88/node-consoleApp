@@ -1,0 +1,26 @@
+[
+    {
+        "name": "manuela",
+        "surname": "ariotti",
+        "yob": 1988,
+        "isMarried": false
+    },
+    {
+        "name": "ares",
+        "surname": "fiumicelli",
+        "yob": 1993,
+        "isMarried": false
+    },
+    {
+        "name": "luca",
+        "surname": "verduci",
+        "yob": 1999,
+        "isMarried": false
+    },
+    {
+        "name": "stefania",
+        "surname": "ghergut",
+        "yob": 1996,
+        "isMarried": false
+    }
+]
